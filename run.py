@@ -7,7 +7,8 @@ bootstrap5 = Bootstrap5(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    title = 'Мой одностраничник'
+    return render_template('index.html', title=title)
 
 
 if __name__ == '__main__':

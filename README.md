@@ -5,3 +5,11 @@
     pip install flask bootstrap-flask
 
 
+Для публикации на heroku иcпользуется модуль gunicorn
+
+    pip install gunicorn
+
+И файл Procfile
+
+Михаил Терехов 2022
+

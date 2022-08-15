@@ -11,12 +11,14 @@ body, .navbar, .content, .footer, .card{
     border-radius: 50px;
 }
 
+
 .author_img{
     height:300px;
     border-radius: 100px;
     padding : 0 10px;
 
 }
+
 
 .author_main_info{
     color: green;
@@ -28,13 +30,38 @@ body, .navbar, .content, .footer, .card{
     padding: 20px;
 
 }
+
+
 .card{
 min-width: 80%;
 }
 
+
 .navbar{
     border-bottom: 0.5px grey solid;
 }
+
+
+.fixedbut {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    background: #3543;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 6px 23px;
+    font-size: 17px;
+
+}
+
+
+.fixedbut:hover {
+    background: #222;
+
+}
+
 
 .footer{
     height: 100px;
